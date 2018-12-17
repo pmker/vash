@@ -24,7 +24,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/pmker/vash/common"
+	"github.com/pmker/vas/pkg/common"
 	"github.com/spf13/cobra"
 )
 

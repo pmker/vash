@@ -32,10 +32,10 @@ import (
 	"github.com/spf13/cobra"
 	"go.uber.org/zap"
 
-	"github.com/pmker/vash/common"
-	"github.com/pmker/vash/common/config"
-	"github.com/pmker/vash/common/log"
-	"github.com/pmker/vash/common/proto/update"
+	"github.com/pmker/vas/pkg/common"
+	"github.com/pmker/vas/pkg/common/config"
+	"github.com/pmker/vas/pkg/common/log"
+	"github.com/pmker/vas/pkg/common/proto/update"
 	update2 "github.com/pmker/vash/discovery/update"
 )
 

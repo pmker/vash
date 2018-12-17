@@ -28,9 +28,9 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/pmker/vash/common"
-	"github.com/pmker/vash/common/log"
-	"github.com/pmker/vash/common/registry"
+	"github.com/pmker/vas/pkg/common"
+	"github.com/pmker/vas/pkg/common/log"
+	"github.com/pmker/vas/pkg/common/registry"
 )
 
 var (

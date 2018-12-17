@@ -28,7 +28,7 @@ import (
 
 	. "github.com/smartystreets/goconvey/convey"
 
-	"github.com/pmker/vash/common/registry"
+	"github.com/pmker/vas/pkg/common/registry"
 	_ "github.com/pmker/vash/discovery/config/grpc"
 	_ "github.com/pmker/vash/discovery/nats"
 )

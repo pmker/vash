@@ -29,10 +29,10 @@ import (
 	micro "github.com/micro/go-micro"
 	"github.com/spf13/cobra"
 
-	"github.com/pmker/vash/common"
-	"github.com/pmker/vash/common/registry"
-	"github.com/pmker/vash/common/service"
-	"github.com/pmker/vash/common/micro"
+	"github.com/pmker/vas/pkg/common"
+	"github.com/pmker/vas/pkg/common/registry"
+	"github.com/pmker/vas/pkg/common/service"
+	"github.com/pmker/vas/pkg/common/micro"
 )
 
 var (
