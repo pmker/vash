@@ -26,10 +26,10 @@ import (
 	"strings"
 
 	micro "github.com/micro/go-micro"
-	"github.com/pmker/vas/pkg/common"
-	"github.com/pmker/vas/pkg/common/micro"
-	"github.com/pmker/vas/pkg/common/registry"
-	proto "github.com/pmker/vas/pkg/common/service/proto"
+	"github.com/pmker/vash/common"
+	"github.com/pmker/vash/common/micro"
+	"github.com/pmker/vash/common/registry"
+	proto "github.com/pmker/vash/common/service/proto"
 	"github.com/spf13/cobra"
 )
 

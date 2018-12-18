@@ -36,23 +36,23 @@ import (
 	"github.com/spf13/viper"
 	"go.uber.org/zap"
 
-	"github.com/pmker/vas/pkg/common"
-	"github.com/pmker/vas/pkg/common/log"
-	"github.com/pmker/vas/pkg/common/plugins"
+	"github.com/pmker/vash/common"
+	"github.com/pmker/vash/common/log"
+	"github.com/pmker/vash/common/plugins"
 	"github.com/pmker/vash/discovery/nats"
 
-	"github.com/pmker/vas/pkg/common/registry"
+	"github.com/pmker/vash/common/registry"
 
 	// All brokers
-	httpbroker "github.com/pmker/vas/pkg/common/micro/broker/http"
-	natsbroker "github.com/pmker/vas/pkg/common/micro/broker/nats"
+	httpbroker "github.com/pmker/vash/common/micro/broker/http"
+	natsbroker "github.com/pmker/vash/common/micro/broker/nats"
 
 	// All registries
-	consulregistry "github.com/pmker/vas/pkg/common/micro/registry/consul"
-	natsregistry "github.com/pmker/vas/pkg/common/micro/registry/nats"
+	consulregistry "github.com/pmker/vash/common/micro/registry/consul"
+	natsregistry "github.com/pmker/vash/common/micro/registry/nats"
 
 	// All transports
-	grpctransport "github.com/pmker/vas/pkg/common/micro/transport/grpc"
+	grpctransport "github.com/pmker/vash/common/micro/transport/grpc"
 )
 
 var (
